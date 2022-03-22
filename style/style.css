@@ -1,0 +1,153 @@
+/*VARIABLES*/
+/*INDEX*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body {
+  background-color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-rows: 7rem 10rem;
+  grid-template-areas: "header" "homeimage titulo" "p" "subtitulo" "p" "footer";
+  grid-gap: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  font-size: 20px;
+  justify-content: left;
+  align-self: flex-end;
+  padding: left;
+  background-color: #FDE5D9 !important;
+}
+
+.navbar .container-fluid {
+  background-color: #FDE5D9 !important;
+}
+
+.navbar-brand {
+  justify-content: left;
+  font-size: 20px;
+}
+
+.navbar-nav a {
+  justify-content: end;
+}
+
+.section {
+  display: grid;
+  margin: 20px 20px 20px 20px;
+}
+
+.imagen-inicio {
+  justify-content: center;
+  text-align: center;
+}
+.imagen-inicio img {
+  max-width: 600px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.p {
+  text-align: center justify;
+  width: 80%;
+  margin: 60px 120px 60px 120px;
+  float: center;
+}
+
+.lead {
+}
+
+.blockquote-footer {
+  margin: 60px 120px 60px 120px;
+}
+
+.blockquote {
+  margin: 30px 120px 60px 120px;
+}
+
+.imagen img {
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+/*sobremi*/
+.aboutme {
+  gap: 5%;
+  margin: 20px;
+}
+
+.servicios {
+  background: #f9ede7;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+.sobremi {
+  background: #f9ede7;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+.contactos {
+  background: #f9ede7;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+.fs-5 {
+  margin: 30px 80px 30px 60px;
+  text-align: justify;
+}
+
+.display-5 {
+  padding-top: 10px;
+  margin: 30px 80px 30px 40px;
+}
+
+.display-3 {
+  text-align: center;
+  float: center;
+}
+
+.display-6 {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 10px;
+}
+
+/*FOOTEr*/
+footer {
+  background-color: #FDE5D9;
+  color: black;
+  padding: 15px;
+  padding-left: 1rem;
+  color: black;
+}
+
+.footercpr {
+  text-align: center;
+}
+
+.footericons {
+  float: right;
+}
+.footericons a img:hover {
+  transform: translateY(2);
+}/*# sourceMappingURL=style.css.map */
