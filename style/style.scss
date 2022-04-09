@@ -93,35 +93,34 @@ header {
 .aboutme {
 	.aboutme {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 		gap: 5%;
 		margin: 5% 5% 0 5%;
 		font-family: "Raleway", sans-serif;
-	  }
-	  .servicios{
-		grid-template-columns:1fr;
-		background:  #f9ede7;
-		padding: 2.5%;
-		border-radius: 10px;
-	  }
-	  .sobremi {
-		grid-template-columns:1fr;
-		background: #f9ede7;
-		padding: 2.5%;
-		border-radius: 10px;
-	  }
-	  .contactos {
-		grid-template-columns:1fr;
-		background: #f9ede7;
-		padding: 2.5%;
-		border-radius: 10px;
-	  }
-	  .col-12{
-		justify-content: center;
-		color:#1d685f;
-		text-decoration: none;
-	  }
-	  
+	}
+		.servicios{
+			background:  #f9ede7;
+			padding: 2.5%;
+			border-radius: 10px;
+		}
+		.sobremi {
+			background: #f9ede7;
+			padding: 2.5%;
+			border-radius: 10px;
+		}
+		.contactos {
+			background: #f9ede7;
+			padding: 2.5%;
+			border-radius: 10px;
+		}
+		.col-12{
+			justify-content: center;
+			color:#1d685f;
+			text-decoration: none;
+			width: 30%;
+            transition: 400ms;
+		}
+
 
 .fs-5 {
 	margin: 30px 80px 30px 60px;
